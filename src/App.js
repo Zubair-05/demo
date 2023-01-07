@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import photo from './Assets/photo.jpeg'
+import heroImage from './Assets/heroImage.jpeg'
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,7 @@ function App() {
         <h1>I love paratha</h1>
         <h1>My best freind in Myself</h1>
         <h1>abcd</h1>
-        <img src={photo}/>
+        <img src={heroImage}/>
       </header>
     </div>
   );
